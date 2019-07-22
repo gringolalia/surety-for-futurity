@@ -6,7 +6,7 @@
 					md-icon.md-primary menu
 
 				span.md-title
-					i.fa.fa-gears.fa-2x
+					i.fas.fa-chess.fa-2x
 					| &nbsp;&nbsp;Engenho Novo LLC
 
 				.md-toolbar-section-end
@@ -16,10 +16,10 @@
 			md-drawer(:md-active.sync='showNavigation' style="background-color: #607d8b; color: white" md-fixed)
 				md-toolbar
 					span.md-title
-						i.fa.fa-gears.fa-2x
+						i.fas.fa-cogs.fa-2x
 						| &nbsp;&nbsp; Engenho Novo LLC
 
-				md-list(@click="showNavigation = false")
+				md-list(@click="showNavigation = false" style="background-color: #4682B4;")
 					md-list-item(to="/")
 						md-icon all_inclusive
 

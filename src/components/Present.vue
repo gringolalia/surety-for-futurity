@@ -1,5 +1,5 @@
 <template lang="pug">
-.hello
+.md-layout
 	img(src='../assets/biohazard.svg', width='175px')
 	h1 {{ msg }}
 	h2 O Perfeito do Passado
@@ -22,8 +22,8 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+
+<style>
 
 .hello {
 	min-height: 100vh;

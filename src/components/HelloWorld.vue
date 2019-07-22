@@ -1,26 +1,26 @@
 <template lang="pug">
-.hello
-	.md-layout
-		.md-layout-item.md-medium-size-50.md-small-size-50.md-xsmall-size-100
-			img(src='../assets/biohazard.svg', width='175px')
-			h1 {{ msg }}
-			h2 Devo Lançou a Bolacha em 1979
-			h3 Cloned in San Pavlov 2018
-			md-button.md-raised.md-primary(to="future-one")
-				i.fa.fa-transgender.fa-lg
-				| &nbsp; Are We Not Men?
-			blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
+.md-layout
+	.md-layout-item
 
-		.md-layout-item.md-medium-size-50.md-small-size-50.md-xsmall-size-100s
+		img(src='../assets/biohazard.svg', width='175px')
+		h1 {{ msg }}
+		h2 Devo Lançou a Bolacha em 1979
+		h3 Cloned in San Pavlov 2018
+		md-button.md-raised.md-primary(to="future-one")
+			i.fa.fa-transgender.fa-lg
+			| &nbsp; Are We Not Men?
+		blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
 
-			img(src='../assets/biohazard.svg', width='175px')
-			h1 {{ msg }}
-			h2 Devo Lançou a Bolacha em 1979
-			h3 Cloned in San Pavlov 2018
-			md-button.md-raised.md-primary(to="future-one")
-				i.fa.fa-transgender.fa-lg
-				| &nbsp; Are We Not Men?
-			blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
+	.md-layout-item
+
+		img(src='../assets/biohazard.svg', width='175px')
+		h1 {{ msg }}
+		h2 Devo Lançou a Bolacha em 1979
+		h3 Cloned in San Pavlov 2018
+		md-button.md-raised.md-primary(to="future-one")
+			i.fa.fa-transgender.fa-lg
+			| &nbsp; Are We Not Men?
+		blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
 
 </template>
 script.

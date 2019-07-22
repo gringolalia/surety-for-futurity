@@ -1,15 +1,29 @@
 <template lang="pug">
-.hello
-	img(src="../assets/biohazard.svg" width="175px")
-	h1 {{ msg }}
+.md-layout
+	.md-layout-item
+		img(src="../assets/biohazard.svg" width="175px")
+		h1 {{ msg }}
 
-	h2 Very Important, Being on Time
-	H3 Vue Material Clonado na Samboja 2018
-	h4
-		i.fa.fa-street-view.fa-5x
-	md-button.md-primary.md-raised
-		md-icon access_time
-		| &nbsp; Tic-Toc Tic-Toc
+		h2 Very Important, Being on Time
+		H3 Vue Material Clonado na Samboja 2018
+		h4
+			i.fa.fa-street-view.fa-5x
+		md-button.md-primary.md-raised
+			md-icon access_time
+			| &nbsp; Ticking Your Tock
+
+	.md-layout-item
+		img(src="../assets/biohazard.svg" width="175px")
+		h1 {{ msg }}
+
+		h2 Boozy Beggar Heidegger
+		H3 Vue Material Clonado na Samboja 2018
+		h4
+			i.fa.fa-street-view.fa-5x
+		md-button.md-primary.md-raised
+			md-icon access_time
+			| &nbsp; Ticking Your Tock
+
 </template>
 
 <script>

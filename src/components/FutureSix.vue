@@ -1,16 +1,17 @@
 <template lang="pug">
 .hello
-	img(src='../assets/biohazard.svg', width='175px')
-	h1 {{ msg }}
+	.mdc-layout
+		img(src='../assets/biohazard.svg', width='175px')
+		h1 {{ msg }}
 
-	h2 Cloned in San Pavlov 2018
-	H3 Vue Material With Webpack
-	h4
-		i.fa.fa-street-view.fa-5x
+		h2 Cloned in San Pavlov 2018
+		H3 Vue Material With Webpack
+		h4
+			i.fa.fa-street-view.fa-5x
 
-	md-button.md-primary(to="/")
-		i.material-icons directions_bike
-		| &nbsp; Navegar Preciso
+		md-button.md-primary(to="/")
+			i.material-icons directions_bike
+			| &nbsp; Navegar Preciso
 </template>
 
 <script>

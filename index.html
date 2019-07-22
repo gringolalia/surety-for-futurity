@@ -10,7 +10,7 @@
 
 		<link rel='stylesheet', href='https://unpkg.com/vue-material@beta/dist/vue-material.min.css'>
 
-		<link rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+		<link rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
 
 
 	<style>
@@ -77,16 +77,21 @@
       }
 
       .md-layout {
-        min-height: calc(100vh - 75px);
+        max-height: calc(100vh / 3);
         overflow: visible;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        text-align: justify;
+        /* text-align: justify; */
         text-align-last: center;
-        padding: 50px;
+        /* padding: 50px; */
       }
+
+			i, .material-icons, .fa, .fab, .far, .fas {
+				vertical-align: middle;
+			}
+
 
 </style>
 

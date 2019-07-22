@@ -1,15 +1,23 @@
 <template lang="pug">
-.hello
-	img(src='../assets/biohazard.svg', width='175px')
-	h1 {{ msg }}
-	h2 Noites em Cetim Branco 1967
-	H3 The Future Will Be Perfectly Tense
-	h4 Projeto VM Clonado na Samboja 2018
-	md-button.md-primary.md-raised
-		i.material-icons waves
-		| &nbsp; End Games
-	p(style="margin-top: 30px")
-		i.fa.fa-strikethrough.fa-4x
+.md-layout
+	.md-layout-item
+		img(src='../assets/biohazard.svg', width='175px')
+		h1 {{ msg }}
+		h2 Noites em Cetim Branco 1967
+		H3 The Future Will Be Perfectly Tense
+		h4 Projeto VM Clonado na Samboja 2018
+		md-button.md-fab.md-raised.md-primary
+			md-icon waves
+
+	.md-layout-item
+		img(src='../assets/biohazard.svg', width='175px')
+		h1 {{ msg }}
+		h2 Noites em Cetim Branco 1967
+		H3 The Future Will Be Perfectly Tense
+		h4 Projeto VM Clonado na Samboja 2018
+		md-button.md-fab.md-raised.md-primary
+			md-icon waves
+
 </template>
 
 <script>
