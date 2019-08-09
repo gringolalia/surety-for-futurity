@@ -19,7 +19,7 @@
 						i.fas.fa-cogs.fa-2x
 						| &nbsp;&nbsp; Engenho Novo LLC
 
-				md-list(@click="showNavigation = false" style="background-color: #4682B4;")
+				md-list(@click="showNavigation = false" style="background-color: #2f4f4f;")
 					md-list-item(to="/")
 						md-icon all_inclusive
 
