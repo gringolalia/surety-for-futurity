@@ -1,5 +1,6 @@
-{
+	{
   "hosting": {
+		"site": "the-time-warp",
     "public": "dist",
     "ignore": [
       "firebase.json",

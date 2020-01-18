@@ -1,5 +1,5 @@
 <template lang="pug">
-.md-layout
+.md-layout.md-gutter.md-alignment-top-center
 	.md-layout-item
 
 		img(src='../assets/biohazard.svg', width='175px')
