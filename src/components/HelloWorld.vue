@@ -1,32 +1,28 @@
 <template lang="pug">
-.md-layout.md-gutter.md-alignment-top-center
-	.md-layout-item
+.hello
+	.md-layout
+		.md-layout-item
+			img(src='../assets/biohazard.svg', width='175px')
+			h1 {{ msg }}
+			h2 Devo Lançou a Bolacha em 1979
+			h3 Cloned in San Pavlov 2018
+			md-button.md-raised.md-primary(to="future-one")
+				i.fa.fa-transgender.fa-lg
+				| &nbsp; Are We Not Men?
+			blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
 
-		img(src='../assets/biohazard.svg', width='175px')
-		h1 {{ msg }}
-		h2 Devo Lançou a Bolacha em 1979
-		h3 Cloned in San Pavlov 2018
-		md-button.md-raised.md-primary(to="future-one")
-			i.fa.fa-transgender.fa-lg
-			| &nbsp; Are We Not Men?
-		blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
+		.md-layout-item
 
-	.md-layout-item
-
-		img(src='../assets/biohazard.svg', width='175px')
-		h1 {{ msg }}
-		h2 Devo Lançou a Bolacha em 1979
-		h3 Cloned in San Pavlov 2018
-		md-button.md-raised.md-primary(to="future-one")
-			i.fa.fa-transgender.fa-lg
-			| &nbsp; Are We Not Men?
-		blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
+			img(src='../assets/biohazard.svg', width='175px')
+			h1 {{ msg }}
+			h2 Devo Lançou a Bolacha em 1979
+			h3 Cloned in San Pavlov 2018
+			md-button.md-raised.md-primary(to="future-one")
+				i.fa.fa-transgender.fa-lg
+				| &nbsp; Are We Not Men?
+			blockquote «Time keeps on slipping<br> slipping slipping<br> into the future»
 
 </template>
-script.
-  export default {
-  name: 'TabContent'
-  }
 
 <script>
 export default {
@@ -40,18 +36,18 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "~vue-material/dist/theme/engine";
 
-.md-layout {
-	min-height: 100vh;
+.hello {
+	min-height: calc(100vh - 75px);
 	overflow: visible;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: justify;
-	text-align-last: center;
+	text-align: center;
 	padding: 50px;
 }
 
@@ -73,4 +69,6 @@ li {
 a {
 	color: #42b983;
 }
+
+
 </style>

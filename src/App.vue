@@ -13,7 +13,7 @@
 					md-button.md-icon-button(@click='showNavigation = true')
 						i.material-icons.md-primary my_location
 
-			md-drawer(:md-active.sync='showNavigation' style="background-color: #607d8b; color: white" md-fixed)
+			md-drawer(:md-active.sync='showNavigation' style="background-color: #607d8b; color: white;" md-fixed)
 				md-toolbar
 					span.md-title
 						i.fas.fa-cogs.fa-2x

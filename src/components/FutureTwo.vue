@@ -1,4 +1,4 @@
-	<template lang="pug">
+<template lang="pug">
 .hello
 	img(src="../assets/biohazard.svg" width="125px")
 	h1 {{ msg }}
